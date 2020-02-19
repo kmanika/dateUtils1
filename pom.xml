@@ -4,7 +4,7 @@
   <groupId>com.vodafonemkyong.core.utils</groupId>
   <artifactId>dateUtils1</artifactId>
   <packaging>jar</packaging>
-  <version>1.0</version>
+  <version>1.1</version>
   <name>dateUtils1</name>
   <url>http://maven.apache.org</url>
   
