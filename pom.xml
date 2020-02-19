@@ -2,11 +2,23 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.vodafonemkyong.core.utils</groupId>
-  <artifactId>dateUtils</artifactId>
+  <artifactId>dateUtils1</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
-  <name>dateUtils</name>
+  <version>1.0</version>
+  <name>dateUtils1</name>
   <url>http://maven.apache.org</url>
+<distributionManagement>
+		<repository>
+				<id>releases</id>
+				<name>Internal Releases</name>
+				<url>https://maven.pkg.github.com/kmanika/dateUtils1</url>
+			</repository>
+		<!--<snapshotRepository>
+			<id>snapshots</id>
+			<name>Internal Snapshots</name>
+			<url>https://maven.pkg.github.com/OWNER/REPOSITORY</url>
+		</snapshotRepository>-->
+</distributionManagement>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
