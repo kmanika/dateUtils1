@@ -7,6 +7,14 @@
   <version>1.0</version>
   <name>dateUtils1</name>
   <url>http://maven.apache.org</url>
+  
+	<properties>
+	  <sonar.projectKey>kmanika_dateUtils1</sonar.projectKey>
+	  <sonar.organization>kmanika</sonar.organization>
+	  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+	  <sonar.login>946646c5e61427f7f82f33321f15c851e0e52e43</sonar.login>
+	</properties>
+
 <distributionManagement>
 		<repository>
 				<id>releases</id>
